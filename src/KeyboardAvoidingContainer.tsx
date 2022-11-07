@@ -218,7 +218,9 @@ export function useKeyboardAvoidingContainerProps<
         if (keyboardLayoutRef.current) return
 
         const {endCoordinates: newKeyboardLayout} = event
-        const newFocusedTextInputNodeHandle = NativeTextInput.State.currentlyFocusedField()
+        
+        const newFocusedTextInputNodeHandle = NativeTextInput.State.currentlyFocusedField ? NativeTextInput.State.currentlyFocusedField() : NativeTextInput.State.currentlyFocusedInput()
+
         const newStickyFooterNodeHandle = findNodeHandle(
           stickyFooterRef.current,
         )
