@@ -36,7 +36,6 @@
     "bootstrap": "yarn --cwd example && yarn",
     "build": "rm -rf dist && yarn tsc --pretty --declaration --outDir dist",
     "example": "yarn --cwd example",
-    "prepublishOnly": "yarn build",
     "presemantic-release": "yarn build",
     "prepack": "yarn build",
     "semantic-release": "semantic-release"
