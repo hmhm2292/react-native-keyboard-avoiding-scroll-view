@@ -75,7 +75,9 @@
     "react": "*",
     "react-native": "*"
   },
-  "dependencies": {},
+  "dependencies": {
+    "tsc": "^2.0.4"
+  },
   "devDependencies": {
     "@alkafinance/eslint-config": "^1.0.1",
     "@alkafinance/eslint-config-react": "^1.0.0",
