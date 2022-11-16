@@ -39,7 +39,6 @@
     "prepublishOnly": "yarn build",
     "presemantic-release": "yarn build",
     "prepack": "yarn build",
-    "postinstall": "yarn build",
     "semantic-release": "semantic-release"
   },
   "prettier": {
