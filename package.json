@@ -33,7 +33,6 @@
   "scripts": {
     "typecheck": "tsc --noEmit --pretty",
     "lint": "eslint --ext .js,.ts,.tsx --cache .",
-    "test": "run-p --silent --print-label typecheck lint",
     "bootstrap": "yarn --cwd example && yarn",
     "build": "rm -rf dist && yarn tsc --pretty --declaration --outDir dist",
     "example": "yarn --cwd example",
