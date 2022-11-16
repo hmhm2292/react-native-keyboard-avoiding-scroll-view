@@ -39,7 +39,8 @@
     "example": "yarn --cwd example",
     "prepublishOnly": "yarn build",
     "presemantic-release": "yarn build",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "postinstall": "yarn build"
   },
   "prettier": {
     "bracketSpacing": false,
