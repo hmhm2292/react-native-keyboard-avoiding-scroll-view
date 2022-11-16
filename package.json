@@ -38,8 +38,7 @@
     "example": "yarn --cwd example",
     "prepublishOnly": "yarn build",
     "presemantic-release": "yarn build",
-    "semantic-release": "semantic-release",
-    "postinstall": "yarn build"
+    "semantic-release": "semantic-release"
   },
   "prettier": {
     "bracketSpacing": false,
@@ -75,9 +74,7 @@
     "react": "*",
     "react-native": "*"
   },
-  "dependencies": {
-    "tsc": "^2.0.4"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@alkafinance/eslint-config": "^1.0.1",
     "@alkafinance/eslint-config-react": "^1.0.0",
