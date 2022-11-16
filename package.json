@@ -38,7 +38,7 @@
     "example": "yarn --cwd example",
     "prepublishOnly": "yarn build",
     "presemantic-release": "yarn build",
-    "prepack": "yarn build",
+    "prepare": "yarn build",
     "semantic-release": "semantic-release"
   },
   "prettier": {
